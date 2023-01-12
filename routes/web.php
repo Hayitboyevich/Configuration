@@ -21,5 +21,9 @@ Route::get('/', function () {
 
 Route::get('management', [PostController::class, 'management']);
 Route::get('news', [PostController::class, 'news']);
+Route::get('incident', [PostController::class, 'incident']);
+Route::get('links', [PostController::class, 'links']);
+Route::get('regional', [PostController::class, 'regional']);
+
 
 
